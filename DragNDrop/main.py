@@ -18,7 +18,7 @@ while True:
     if lmList:
         
         l, _, _ =detector.findDistance(8,12,img)
-        
+        print(l)
         cursor = lmList[8]
         if cx-w//2<cursor[0]<cx+w//2 and cy-h//2<cursor[1]<cy+h//2:
             colorR = 0,255,0
