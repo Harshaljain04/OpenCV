@@ -2,3 +2,4 @@ cvzone
 numpy
 opencv-python
 time
+streamlit
